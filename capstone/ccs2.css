@@ -152,6 +152,90 @@ nav a:hover {
     background: transparent;
 }
 
+.testimonials {
+    background-color: #1e1e1e;
+    padding: 60px 20px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.testimonials h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+    color: #bb86fc;
+}
+
+.testimonial-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.testimonial {
+    background: rgba(30,30,30,0.8);
+    padding: 20px;
+    border-radius: 12px;
+    width: 280px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+    transition: 0.3s;
+}
+
+.testimonial:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 6px 15px rgba(187,134,252,0.5);
+}
+
+
+
+
+.newsletter {
+    background-color: #121212;
+    padding: 60px 20px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.newsletter h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #03dac6;
+}
+
+.newsletter-form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.newsletter-form input {
+    padding: 12px;
+    border-radius: 6px;
+    border: none;
+    width: 250px;
+    font-size: 16px;
+}
+
+.newsletter-form button {
+    background-color: #bb86fc;
+    color: #121212;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.newsletter-form button:hover {
+    background-color: #9a67ea;
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
 
 @keyframes fadeIn {
     from {
